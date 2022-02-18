@@ -23,12 +23,12 @@
 
 
 /* ここからハンバーガーの≡みたいなやつ */
-#div_indexpage_hamburger_≡>div {
+#div_indexpage_hamburger_≡>span {
     width: 36px;
     height: 12px;
 }
 
-#div_indexpage_hamburger_≡>div:nth-child(n+2) {
+#div_indexpage_hamburger_≡>span:nth-child(n+2) {
     border-top: #fff 1px solid;
 }
 
