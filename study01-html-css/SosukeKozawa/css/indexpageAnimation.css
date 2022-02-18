@@ -1,0 +1,52 @@
+/* ここからanimationの横にはみ出た部分によって余計な余白が出来ないようにするもの */
+#main_indexpage {
+    overflow-x: hidden;
+}
+
+/* ここまでanimationの横にはみ出た部分によって余計な余白が出来ないようにするもの */
+
+/* ここからindexpageのproduct"1"を説明するsectionを横からスライドインさせるアニメーション */
+/* scrollEvent.jsのscrollEvent()と組み合わせて */
+#section_indexpage_product1 {
+    opacity: 0;
+    transform: translate(-10vw, 0);
+    transition: all 1.5s ease-out;
+}
+
+#section_indexpage_product1.scroll_in {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* ここまでindexpageのproduct"1"を説明するsectionを横からスライドインさせるアニメーション */
+
+/* ここからindexpageのproduct"2"を説明するsectionを横からスライドインさせるアニメーション */
+/* scrollEvent.jsのscrollEvent()と組み合わせて */
+#section_indexpage_product2 {
+    opacity: 0;
+    transform: translate(10vw, 0);
+    transition: all 1.5s ease-out;
+}
+
+#section_indexpage_product2.scroll_in {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* ここまでindexpageのproduct"2"を説明するsectionを横からスライドインさせるアニメーション */
+
+
+/* ここからindexpageのproduct"2"を説明するsectionを横からスライドインさせるアニメーション */
+/* scrollEvent.jsのscrollEvent()と組み合わせて */
+#section_indexpage_news {
+    opacity: 0;
+    transform: translate(0, 4vh);
+    transition: all 1.5s ease-out;
+}
+
+#section_indexpage_news.scroll_in {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* ここまでindexpageのproduct"2"を説明するsectionを横からスライドインさせるアニメーション */

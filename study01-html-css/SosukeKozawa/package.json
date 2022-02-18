@@ -1,0 +1,18 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:eslint": "  eslint .",
+    "lint:prettier": "prettier . --check",
+    "fix:eslint": "  yarn lint:eslint --fix",
+    "fix:prettier": "yarn lint:prettier --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  }
+}

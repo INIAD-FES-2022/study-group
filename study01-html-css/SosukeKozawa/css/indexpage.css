@@ -1,0 +1,167 @@
+/* ここからindexpageのheader */
+#header_indexpage {
+    background-image: url("../img/mainvisual-sp.png");
+    background-size: cover;
+    background-position: center top;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    #header_indexpage {
+        background-image: url("../img/mainvisual-pc.png");
+    }
+}
+
+/* ここまでindexpageのheader */
+
+/* ここからindexpageのheaderのnav内にあるページ内リンク(li) */
+#ul_indexpage_header_navigate_within_page li {
+    margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    #ul_indexpage_header_navigate_within_page li {
+        margin-left: 1.5rem;
+    }
+}
+
+/* ここまでindexpageのheaderのnav内にあるページ内リンク(li) */
+
+/* ここからindexpageのheaderにあるオンラインストアへのリンク */
+#a_indexpage_to_onlinestore {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 36px 24px;
+    outline: #fff 1px solid;
+    outline-offset: -8px;
+}
+
+#a_indexpage_to_onlinestore:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* ここまでindexpageのheaderにあるオンラインストアへのリンク */
+
+/* ここからindexpageのnews欄 */
+#ul_indexpage_news li {
+    padding: 0.5rem;
+    border-right: #000 1px solid;
+}
+
+#ul_indexpage_news li p:first-child {
+    line-height: 1rem;
+}
+
+#ul_indexpage_news li:nth-of-type(n + 4) {
+    display: none;
+}
+
+#ul_indexpage_news li:nth-of-type(3) {
+    border-left: #000 1px solid;
+}
+
+@media screen and (min-width: 768px) {
+    #ul_indexpage_news li {
+        padding: 1rem 1.25rem;
+        border-right: #000 1px solid;
+    }
+
+    #ul_indexpage_news li:last-child {
+        border-left: #000 1px solid;
+    }
+
+    #ul_indexpage_news li:nth-of-type(n + 4) {
+        display: block;
+    }
+
+    #ul_indexpage_news li:nth-of-type(3) {
+        border-left: none;
+    }
+}
+
+/* ここまでindexpageのnews欄 */
+
+/* ここからindexpageのmain直下の子要素(sectionとかdivとか) */
+
+#main_indexpage>* {
+    margin-top: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+    #main_indexpage>* {
+        margin-top: 10rem;
+    }
+}
+
+/* ここまでindexpageのmainの子要素(sectionとかdivとか) */
+
+/* ここからindexpageのproduct"1"を説明するsection内の装飾 */
+
+#section_indexpage_product1>div>div>p {
+    color: #fff;
+    bottom: -6%;
+    left: -3%;
+    width: 65%;
+    padding: 4% 0%;
+    background-color: rgba(249, 233, 6, 0.6);
+    text-align: center;
+}
+
+#section_indexpage_product1>div>div {
+    margin-top: 16%;
+}
+
+@media screen and (min-width: 768px) {
+    #section_indexpage_product1>div>div {
+        margin-top: 16%;
+        max-width: 65%;
+    }
+}
+
+/* ここまでindexpageのproduct"1"を説明するsection内の装飾 */
+
+/* ここからindexpageのproduct"2"を説明するsection内の装飾 */
+#section_indexpage_product2>div>div>p {
+    color: #fff;
+    bottom: -6%;
+    right: -3%;
+    width: 65%;
+    padding: 4% 0%;
+    background-color: rgba(149, 42, 38, 0.6);
+    text-align: center;
+}
+
+#section_indexpage_product2>div>div {
+    margin-top: 16%;
+}
+
+@media screen and (min-width: 768px) {
+    #section_indexpage_product2>div>div {
+        margin-top: 16%;
+        max-width: 65%;
+    }
+}
+
+/* ここまでindexpageのproduct"2"を説明するsection内の装飾 */
+
+/* ここからindexpageのfooter */
+#footer_indexpage {
+    background-color: #000;
+    color: #fff;
+}
+
+/* ここまでindexpageのfooter */
+
+/* ここからindexpageのfooter内にあるページ内リンク(li) */
+#ul_indexpage_footer_navigate_within_page li {
+    margin-left: 0.3rem;
+}
+
+@media screen and (min-width: 768px) {
+    #ul_indexpage_footer_navigate_within_page li {
+        margin-left: 1rem;
+    }
+}
+
+/* ここまでindexpageのfooter内にあるページ内リンク(li) */

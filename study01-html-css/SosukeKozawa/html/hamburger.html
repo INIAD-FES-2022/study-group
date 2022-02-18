@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hamburger menu</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/hamburger.css" />
+    <link rel="stylesheet" href="../css/hamburgerAnimation.css" />
+    <!-- ここからtailwindcss -->
+    <!-- ↓の<script src……が上手く動かなかった時の為の古いcdn -->
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            purge: [],
+            darkMode: false, // or 'media' or 'class'
+            theme: {
+                extend: {
+                    colors: {},
+                },
+                fontFamily: {
+                    body: [
+                        "YuMincho",
+                        "Yu Mincho",
+                        "游明朝体",
+                        "Yu Mincho Light",
+                        "ヒラギノ明朝 ProN",
+                        "Hiragino Mincho ProN",
+                        "Noto Serif JP",
+                        "Avenir",
+                        "Helvetica Neue",
+                        "Helvetica",
+                        "Arial",
+                        "メイリオ",
+                        "Meiryo",
+                        sans - serif,
+                    ],
+                },
+            },
+            variants: {
+                extend: {},
+            },
+            plugins: [],
+        };
+    </script>
+    <!-- ここまでtailwindcss -->
+</head>
+
+<body>
+    <button id="button_indexpage_hamburger" class="rounded-full relative">
+        <div id="div_indexpage_hamburger_≡"
+            class="w-full h-full absolute flex flex-col justify-center items-center viewable">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="div_indexpage_hamburger_x" class="w-full h-full absolute flex justify-center items-center unviewable">
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </button>
+
+    <script src="../js/clickSwitchClass.js"></script>
+</body>
+
+</html>
