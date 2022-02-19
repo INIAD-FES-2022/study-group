@@ -1,0 +1,54 @@
+/* ここからハンバーガーのボタン(柄無し) */
+#button_indexpage_hamburger {
+    background-color: #555;
+    width: 60px;
+    height: 60px;
+    /* min-height: 48px;
+    min-width: 48px;
+    max-height: 72px;
+    max-width: 72px; */
+}
+
+#button_indexpage_hamburger>div {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#div_indexpage_hamburger_≡ {
+    z-index: 1;
+}
+
+/* ここまでハンバーガーのボタン(柄無し) */
+
+
+/* ここからハンバーガーの≡みたいなやつ */
+#div_indexpage_hamburger_≡>span {
+    width: 36px;
+    height: 12px;
+}
+
+#div_indexpage_hamburger_≡>span:nth-child(n+2) {
+    border-top: #fff 1px solid;
+}
+
+/* ここまでハンバーガーの≡みたいなやつ */
+
+
+/* ここからハンバーガーのXみたいなやつ */
+
+#div_indexpage_hamburger_x>div>div {
+    width: 36px;
+    height: 1px;
+    border-top: #fff 1px solid;
+}
+
+#div_indexpage_hamburger_x>div>div {
+    transform: rotate(45deg);
+}
+
+#div_indexpage_hamburger_x>div>div:nth-child(2) {
+    transform: rotate(-45deg);
+}
+
+/* ここまでハンバーガーのXみたいなやつ */
