@@ -1,5 +1,5 @@
 const switchClass = (classChangeElement, class1, class2) => {
-    // clickElementがクリックされたら、classChangeElementのclass1とclass2を入れ替える
+    // classChangeElementのclass1とclass2を入れ替える
     // classChangeElementにclass1とclass2もなかったら、class1を付ける
     let element = document.querySelector(classChangeElement);
     if (element.classList.contains(class1)) {
@@ -20,7 +20,8 @@ const clickSwitchClass = (
     class1,
     class2
 ) => {
-    // clickElementがクリックされたら、classChangeElement1,2のclass1とclass2を入れ替える
+    // switchClass()をclickElementがクリックされたら走らせる
+    // つまり、clickElementがクリックされたら、classChangeElement1,2のclass1とclass2を入れ替える
     // classChangeElement1,2にclass1とclass2もなかったら、class1を付ける
     let buttonEle = document.querySelector(clickElement);
     buttonEle.addEventListener("click", () => {
